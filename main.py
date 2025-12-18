@@ -16,7 +16,7 @@ st.subheader("Ask questions about your image")
 # Streamlit Cloud: Settings -> Secrets
 # محلياً: .streamlit/secrets.toml
 # GOOGLE_API_KEY="xxxx"
-GOOGLE_API_KEY = st.secrets.get("GOOGLE_API_KEY", "")
+GOOGLE_API_KEY = st.secrets.get("AIzaSyBo6Ib6ZyioqY8fckhuuqULsB5y3Py9wuI", "")
 
 if not GOOGLE_API_KEY:
     st.warning("AIzaSyBo6Ib6ZyioqY8fckhuuqULsB5y3Py9wuI (.streamlit/secrets.toml).")
@@ -95,3 +95,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
